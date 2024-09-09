@@ -1,0 +1,41 @@
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.card {
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#searchInput {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#searchButton {
+    font-size: 0.875rem;
+    padding: 5px 10px;
+    margin: 10px auto;
+    display: block;
+}
+
+.card .btn {
+    margin: 5px 0;
+}
+
+.card-body {
+    text-align: center;
+}
